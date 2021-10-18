@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashScreen">
+    tools:context=".SplashScreen"
+    android:background="#3d63b2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="3">
+        </View>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/FastGuideLogo"
+            android:layout_width="180sp"
+            android:layout_height="180sp"
+            android:layout_gravity="center"
+            android:src="@drawable/gigi_hadid">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="3">
+        </View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="4">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/GetStarted"
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/white_round_edges"
+                android:text="Get Started"
+                android:textColor="#152036"
+                android:textStyle="bold">
+            </androidx.appcompat.widget.AppCompatButton>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
