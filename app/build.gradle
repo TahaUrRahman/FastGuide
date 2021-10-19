@@ -37,4 +37,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     //for circle images
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //Recycler View
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
 }

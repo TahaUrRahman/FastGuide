@@ -37,7 +37,7 @@
             android:layout_height="0sp"
             android:layout_weight="1"
             android:text="Username:"
-            android:textColor="@color/black"
+            android:textColor="#51607e"
             android:textSize="18sp"
             android:textStyle="bold">
         </TextView>
@@ -65,7 +65,7 @@
             android:layout_height="0sp"
             android:layout_weight="1"
             android:text="Password:"
-            android:textColor="@color/black"
+            android:textColor="#51607e"
             android:textSize="18sp"
             android:textStyle="bold">
         </TextView>

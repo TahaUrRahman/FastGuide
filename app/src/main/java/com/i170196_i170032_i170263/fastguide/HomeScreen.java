@@ -11,7 +11,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class HomeScreen extends AppCompatActivity {
 
-    AppCompatButton GetProfessors;
+    AppCompatButton GetProfessors,GetCourses;
     CircleImageView HomeScreenDP;
 
     @Override
@@ -28,11 +28,20 @@ public class HomeScreen extends AppCompatActivity {
             }
         });
 
+        GetCourses = findViewById(R.id.GetCourses);
+        GetCourses.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeScreen.this,CoursesList.class);
+                startActivity(intent);
+            }
+        });
+
         HomeScreenDP = findViewById(R.id.HomeScreenDP);
         HomeScreenDP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(HomeScreen.this,CoursesList.class);
+                Intent intent = new Intent(HomeScreen.this,StudentProfile.class);
                 startActivity(intent);
             }
         });

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ProfessorRow">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/white"
+        android:layout_marginBottom="10sp">
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <View
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+        </View>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ProfessorDP"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/gigi_hadid">
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_marginLeft="10sp"
+            android:padding="10sp">
+            <TextView
+                android:id="@+id/ProfessorName"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="1"
+                android:text="Professor 2"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="@color/black">
+            </TextView>
+            <TextView
+                android:id="@+id/ProfessorCourse"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="1"
+                android:text="Course#1, Course#2, Course#3"
+                android:textColor="#5f6e8a">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/white"
+        android:layout_marginTop="10sp">
+    </View>
+
+</LinearLayout>

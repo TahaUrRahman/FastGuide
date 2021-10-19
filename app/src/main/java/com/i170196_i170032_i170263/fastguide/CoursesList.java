@@ -1,6 +1,8 @@
 package com.i170196_i170032_i170263.fastguide;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,10 +10,14 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CoursesList extends AppCompatActivity {
 
     ImageView BackBtn;
-    LinearLayout OpenCourse;
+    RecyclerView CourseRV;
+    List<CourseModel> ls;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,13 +32,23 @@ public class CoursesList extends AppCompatActivity {
             }
         });
 
-        OpenCourse = findViewById(R.id.CoursesListScreenCourse);
-        OpenCourse.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(CoursesList.this,CourseNames.class);
-                startActivity(intent);
-            }
-        });
+        ls = new ArrayList<>();
+        ls.add(new CourseModel("Course 1","Computer Science"));
+        ls.add(new CourseModel("Course 1","Computer Science"));
+        ls.add(new CourseModel("Course 1","Computer Science"));
+        ls.add(new CourseModel("Course 1","Computer Science"));
+        ls.add(new CourseModel("Course 1","Computer Science"));
+        ls.add(new CourseModel("Course 1","Computer Science"));
+        ls.add(new CourseModel("Course 1","Computer Science"));
+        ls.add(new CourseModel("Course 1","Computer Science"));
+        ls.add(new CourseModel("Course 1","Computer Science"));
+        ls.add(new CourseModel("Course 1","Computer Science"));
+
+        CourseRV = findViewById(R.id.CourseRV);
+        CourseAdapter adapter = new CourseAdapter(ls,this);
+        RecyclerView.LayoutManager lm = new LinearLayoutManager(this);
+        CourseRV.setLayoutManager(lm);
+        CourseRV.setAdapter(adapter);
+
     }
 }

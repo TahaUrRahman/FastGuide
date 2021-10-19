@@ -32,22 +32,34 @@
             android:layout_height="0sp"
             android:layout_weight="3">
         </View>
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_weight="4">
-
-            <androidx.appcompat.widget.AppCompatButton
+            <RelativeLayout
                 android:id="@+id/GetStarted"
                 android:layout_width="200sp"
                 android:layout_height="50sp"
                 android:layout_centerHorizontal="true"
-                android:background="@drawable/white_round_edges"
-                android:text="Get Started"
-                android:textColor="#152036"
-                android:textStyle="bold">
-            </androidx.appcompat.widget.AppCompatButton>
+                android:background="@drawable/white_round_edges">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Get Started"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="30sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/forward_arrow_vector"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20sp">
+                </ImageView>
+            </RelativeLayout>
         </RelativeLayout>
     </LinearLayout>
 </RelativeLayout>

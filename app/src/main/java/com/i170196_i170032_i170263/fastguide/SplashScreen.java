@@ -8,12 +8,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.RelativeLayout;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class SplashScreen extends AppCompatActivity {
     Animation topAnim,bottomAnim;
-    AppCompatButton GetStarted;
+    RelativeLayout GetStarted;
     CircleImageView FastGuideLogo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
