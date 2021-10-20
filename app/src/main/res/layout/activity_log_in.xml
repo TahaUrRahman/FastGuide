@@ -17,7 +17,7 @@
         android:layout_width="150sp"
         android:layout_height="150sp"
         android:layout_gravity="center"
-        android:src="@drawable/gigi_hadid">
+        android:src="@drawable/notetaking">
     </de.hdodenhof.circleimageview.CircleImageView>
     <View
         android:layout_width="match_parent"

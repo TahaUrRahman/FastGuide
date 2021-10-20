@@ -24,7 +24,7 @@
             android:layout_width="180sp"
             android:layout_height="180sp"
             android:layout_gravity="center"
-            android:src="@drawable/gigi_hadid">
+            android:src="@drawable/notetaking">
         </de.hdodenhof.circleimageview.CircleImageView>
 
         <View

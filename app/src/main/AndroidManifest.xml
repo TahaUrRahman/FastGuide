@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FASTGuide">
         <activity
-            android:name=".TeacherProfile"
-            android:exported="false" />
+            android:name=".TeacherCourse"
+            android:exported="true" />
         <activity
             android:name=".StudentProfile"
             android:exported="false" />
@@ -47,8 +47,7 @@
         </activity>
         <activity
             android:name=".HomeScreen"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>

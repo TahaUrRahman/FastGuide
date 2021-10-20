@@ -1,17 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StudentProfile">
+    tools:context=".StudentProfile"
+    android:orientation="vertical"
+    android:background="#e9effb">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="25sp"
-        android:gravity="center"
-        android:text="Student Profile">
-    </TextView>
+        android:layout_height="1sp"
+        android:layout_marginBottom="5sp"
+        android:layout_weight="1.5"
+        android:weightSum="5"
+        android:orientation="horizontal">
 
-</RelativeLayout>
+        <RelativeLayout
+            android:layout_width="50sp"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/StudentProfileScreenBackBtn"
+                android:layout_width="120sp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:src="@drawable/back_arrow_vector"></ImageView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370sp"
+        android:layout_height="350sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="40sp"
+        android:layout_weight="6"
+        android:background="@drawable/white_round_edges">
+
+        <LinearLayout
+            android:layout_width="340sp"
+            android:layout_height="580sp"
+            android:layout_marginTop="20sp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/HomeScreenDP"
+                android:layout_width="55sp"
+                android:layout_height="55sp"
+                android:layout_weight="1.5"
+                android:layout_marginLeft="280sp"
+                android:layout_marginTop="5sp"
+                android:src="@drawable/spiderman">
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <EditText
+                android:layout_width="300sp"
+                android:layout_height="100sp"
+                android:layout_marginLeft="30sp"
+                android:hint="Name"
+                android:padding="10sp"
+                android:textSize="10sp"></EditText>
+
+            <EditText
+                android:layout_width="300sp"
+                android:layout_height="100sp"
+                android:layout_marginLeft="30sp"
+                android:hint="Roll Number"
+                android:padding="10sp"
+                android:textSize="10sp"></EditText>
+
+            <EditText
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="30sp"
+            android:hint="Email"
+            android:padding="10sp"
+            android:textSize="10sp"></EditText>
+
+            <EditText
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="30sp"
+            android:hint="Comments"
+            android:padding="10sp"
+            android:textSize="10sp"></EditText>
+
+            <EditText
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="30sp"
+            android:hint="Total number of Reactions"
+            android:padding="10sp"
+            android:textSize="10sp"></EditText>
+
+            <View
+                android:layout_width="303sp"
+                android:layout_height="50sp"
+                android:layout_marginLeft="28sp"
+                android:layout_marginTop="15sp"
+                android:layout_weight="0.7">
+            </View>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

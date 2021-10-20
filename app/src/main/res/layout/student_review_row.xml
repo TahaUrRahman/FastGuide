@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:id="@+id/ProfessorRow">
+    android:id="@+id/TeacherCourseRow">
     <View
         android:layout_width="match_parent"
         android:layout_height="1sp"
@@ -18,42 +18,76 @@
         <View
             android:layout_width="0sp"
             android:layout_height="match_parent"
-            android:layout_weight="0.5">
+            android:layout_weight="0.2">
         </View>
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/ProfessorDP"
             android:layout_width="0sp"
             android:layout_height="match_parent"
+            android:layout_marginLeft="-20sp"
             android:layout_weight="1"
-            android:src="@drawable/notetaking">
+            android:src="@drawable/teacher">
         </de.hdodenhof.circleimageview.CircleImageView>
         <LinearLayout
             android:layout_width="0sp"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
+            android:layout_weight="2.3"
             android:orientation="vertical"
             android:weightSum="2"
             android:layout_marginLeft="10sp"
             android:padding="10sp">
             <TextView
-                android:id="@+id/ProfessorName"
+                android:id="@+id/StudentName"
                 android:layout_width="match_parent"
                 android:layout_height="0sp"
                 android:layout_weight="1"
-                android:text="Professor 2"
+                android:text="Student 1"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:gravity="center_vertical"
                 android:textColor="@color/black">
             </TextView>
+
             <TextView
-                android:id="@+id/ProfessorCourse"
+                android:id="@+id/StudentReviewText"
                 android:layout_width="match_parent"
                 android:layout_height="0sp"
                 android:layout_weight="1"
-                android:text="Course#1, Course#2, Course#3"
-                android:textColor="#5f6e8a">
+                android:text="Excellent Teacher"
+                android:textSize="15sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black">
             </TextView>
         </LinearLayout>
+
+       <ImageView
+           android:id="@+id/LikeBtn"
+           android:layout_width="0sp"
+           android:layout_height="match_parent"
+           android:layout_weight="0.5"
+           android:src="@drawable/like_button_vector">
+       </ImageView>
+
+        <ImageView
+            android:id="@+id/DislikeBtn"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="0.5"
+            android:src="@drawable/dislike_button_vector">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/FLagBtn"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="0.5"
+            android:src="@drawable/flag_button_vector">
+        </ImageView>
+
+
+
     </LinearLayout>
     <View
         android:layout_width="match_parent"

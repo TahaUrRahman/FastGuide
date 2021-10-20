@@ -37,7 +37,7 @@ public class ProfessorAdapter extends RecyclerView.Adapter<ProfessorAdapter.MyVi
         holder.ProfessorRow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(c,TeacherProfile.class);
+                Intent intent = new Intent(c,TeacherCourse.class);
                 c.startActivity(intent);
             }
         });

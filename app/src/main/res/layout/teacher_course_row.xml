@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:id="@+id/ProfessorRow">
+    android:id="@+id/TeacherCourseRow">
     <View
         android:layout_width="match_parent"
         android:layout_height="1sp"
@@ -18,42 +18,48 @@
         <View
             android:layout_width="0sp"
             android:layout_height="match_parent"
-            android:layout_weight="0.5">
+            android:layout_weight="0.2">
         </View>
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/ProfessorDP"
-            android:layout_width="0sp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/notetaking">
-        </de.hdodenhof.circleimageview.CircleImageView>
         <LinearLayout
             android:layout_width="0sp"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
+            android:layout_weight="1.5"
             android:orientation="vertical"
             android:weightSum="2"
             android:layout_marginLeft="10sp"
             android:padding="10sp">
             <TextView
-                android:id="@+id/ProfessorName"
+                android:id="@+id/TeacherCourseName"
                 android:layout_width="match_parent"
-                android:layout_height="0sp"
-                android:layout_weight="1"
-                android:text="Professor 2"
+                android:layout_height="match_parent"
+                android:text="Course 1"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:gravity="center_vertical"
                 android:textColor="@color/black">
             </TextView>
-            <TextView
-                android:id="@+id/ProfessorCourse"
-                android:layout_width="match_parent"
-                android:layout_height="0sp"
-                android:layout_weight="1"
-                android:text="Course#1, Course#2, Course#3"
-                android:textColor="#5f6e8a">
-            </TextView>
         </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/GiveReview"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="Give Review"
+            android:textSize="12sp"
+            android:background="@drawable/white_round_edges">
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ReadReview"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="Read Review"
+            android:textSize="12sp"
+            android:background="@drawable/blue_round_edges">
+        </androidx.appcompat.widget.AppCompatButton>
+
     </LinearLayout>
     <View
         android:layout_width="match_parent"

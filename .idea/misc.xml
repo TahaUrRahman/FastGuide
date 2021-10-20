@@ -3,6 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.290625" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/add_userimage_vector.xml" value="0.290625" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/back_arrow_vector.xml" value="0.290625" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/blue_back_arrow_vector.xml" value="0.1" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/blue_round_edges.xml" value="0.290625" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/bottom_white_round_edges.xml" value="0.290625" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/dislike_button_vector.xml" value="0.275" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/flag_button_vector.xml" value="0.275" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/forward_arrow_vector.xml" value="0.290625" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/ic_launcher_background.xml" value="0.290625" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/like_button_vector.xml" value="0.275" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/top_white_round_edges.xml" value="0.290625" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/drawable/white_round_edges.xml" value="0.290625" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_course_names.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_courses_list.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_log_in.xml" value="0.264" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_post_reviews.xml" value="0.264" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_professors_list.xml" value="0.16" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_review_summary.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_sign_up.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_splash_screen.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_student_profile.xml" value="0.4" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_teacher_course.xml" value="0.1068840579710145" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_teacher_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/activity_teacherda_course.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/course_row.xml" value="0.4" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/professor_row.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/student_review_row.xml" value="0.4" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/teaacher_course_row.xml" value="0.1" />
+        <entry key="..\:/Users/Computer/Desktop/FastGuide/app/src/main/res/layout/teacher_course_row.xml" value="0.264" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/drawable/blue_round_edges.xml" value="0.3828125" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/drawable/forward_arrow_vector.xml" value="0.3828125" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/drawable/top_white_round_edges.xml" value="0.3828125" />
