@@ -6,29 +6,30 @@ import androidx.appcompat.widget.AppCompatButton;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 
-public class StudentProfile extends AppCompatActivity {
-    ImageView BackBtn;
-    AppCompatButton Signout;
+public class ReviewText extends AppCompatActivity {
+    ImageButton Backbtn;
+    AppCompatButton ReturnToHomepage;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_student_profile);
+        setContentView(R.layout.activity_review_text);
 
-        BackBtn = findViewById(R.id.StudentProfileScreenBackBtn);
-        BackBtn.setOnClickListener(new View.OnClickListener() {
+        Backbtn = findViewById(R.id.ReviewTextScreenBackBtn);
+        Backbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
             }
         });
 
-        Signout = findViewById(R.id.Signout);
-        Signout.setOnClickListener(new View.OnClickListener() {
+        ReturnToHomepage = findViewById(R.id.ReturnToHomepage);
+        ReturnToHomepage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StudentProfile.this,LogIn.class);
+                Intent intent = new Intent(ReviewText.this,HomeScreen.class);
                 startActivity(intent);
                 finish();
             }

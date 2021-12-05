@@ -31,8 +31,8 @@
         <ImageView
             android:layout_width="match_parent"
             android:src="@drawable/teacher"
-            android:layout_height="180sp">
-
+            android:layout_height="150sp"
+            android:layout_marginTop="10sp">
         </ImageView>
 
         <TextView
@@ -40,8 +40,10 @@
             android:layout_height="40sp"
             android:text="Teacher Name"
             android:textAlignment="center"
+            android:textColor="#51607e"
             android:textStyle="bold"
-            android:textSize="30sp">
+            android:textSize="25sp"
+            android:layout_marginTop="10sp">
 
         </TextView>
         <TextView
@@ -49,10 +51,10 @@
             android:layout_height="120sp"
             android:layout_marginLeft="60sp"
             android:layout_marginRight="60sp"
-
-            android:text="A short intro paragraph that tells how great the teacher is and his interests and research areas and how awesome his teaching skills are etc etc"
+            android:text="A short intro paragraph that tells the teacher's education and research areas etc etc"
             android:textAlignment="center"
-            android:textSize="18sp">
+            android:textSize="18sp"
+            android:layout_marginTop="10sp">
         </TextView>
     </LinearLayout>
 
@@ -63,7 +65,8 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/TeacherCourseRV"></androidx.recyclerview.widget.RecyclerView>
+            android:id="@+id/TeacherCourseRV">
+        </androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
 
 

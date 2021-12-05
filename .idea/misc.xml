@@ -42,13 +42,20 @@
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_courses_list.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_log_in.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_post_reviews.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_professors_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_review_summary.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_review_text.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_sign_up.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_student_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_teacher_course.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/activity_teacher_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/course_row.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/professor_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/review_text.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/student_review_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Owais Nasir/AndroidStudioProjects/FastGuide/app/src/main/res/layout/teacher_course_row.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

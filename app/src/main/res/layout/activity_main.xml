@@ -23,7 +23,7 @@
             android:layout_width="0sp"
             android:layout_height="match_parent"
             android:layout_weight="3.5"
-            android:text="Well Hello There"
+            android:text="Hello Peter"
             android:textColor="#51607e"
             android:layout_marginLeft="20sp"
             android:textSize="25sp"
@@ -35,7 +35,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1.5"
             android:layout_marginRight="20sp"
-            android:src="@drawable/blue_teacher">
+            android:src="@drawable/spiderman">
         </de.hdodenhof.circleimageview.CircleImageView>
     </LinearLayout>
     <LinearLayout
@@ -71,7 +71,8 @@
                     android:background="@drawable/white_round_edges"
                     android:hint="Search Teachers/ Courses ..."
                     android:padding="10sp"
-                    android:textSize="15sp"></EditText>
+                    android:textSize="15sp">
+                </EditText>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -117,13 +118,15 @@
                 <View
                     android:layout_width="0sp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"></View>
+                    android:layout_weight="1">
+                </View>
 
                 <LinearLayout
                     android:layout_width="0sp"
                     android:layout_height="match_parent"
                     android:layout_weight="3"
-                    android:background="#f0f5f8"
+                    android:background="@drawable/blue_round_edges"
+                    android:backgroundTint="#f0f5f8"
                     android:orientation="vertical"
                     android:weightSum="5">
 
@@ -133,7 +136,8 @@
                         android:layout_weight="2"
                         android:padding="20sp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/professor_whiteboard"></ImageView>
+                        android:src="@drawable/professor_whiteboard">
+                    </ImageView>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -142,45 +146,62 @@
                         android:gravity="center"
                         android:text="Get List of all Professors/Courses"
                         android:textColor="@color/black"
-                        android:textSize="15sp"></TextView>
-
-                    <RelativeLayout
+                        android:textSize="15sp">
+                    </TextView>
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="0sp"
-                        android:layout_weight="1">
-
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <View
+                            android:layout_width="0sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.4">
+                        </View>
                         <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/GetProfessors"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0sp"
                             android:layout_height="wrap_content"
+                            android:layout_weight="1.2"
                             android:padding="10sp"
-                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
                             android:background="@drawable/blue_round_edges"
                             android:text="Get Professors"
-                            android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
-                    </RelativeLayout>
-
-                    <RelativeLayout
+                            android:textSize="13sp"
+                            android:textColor="@color/white">
+                        </androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="0sp"
-                        android:layout_weight="1">
-
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <View
+                            android:layout_width="0sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.4">
+                        </View>
                         <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/GetCourses"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0sp"
                             android:layout_height="wrap_content"
-                            android:padding="17sp"
-                            android:layout_centerInParent="true"
+                            android:layout_weight="1.2"
+                            android:padding="10sp"
+                            android:layout_gravity="center_vertical"
                             android:background="@drawable/blue_round_edges"
+                            android:textSize="13sp"
                             android:text="Get Courses"
-                            android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
-                    </RelativeLayout>
+                            android:textColor="@color/white">
+                        </androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
                 </LinearLayout>
-
                 <View
                     android:layout_width="0sp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"></View>
+                    android:layout_weight="1">
+                </View>
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>

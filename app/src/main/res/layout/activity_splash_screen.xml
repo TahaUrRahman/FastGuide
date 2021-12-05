@@ -49,8 +49,7 @@
                     android:textSize="18sp"
                     android:gravity="center_vertical"
                     android:layout_marginLeft="30sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold">
+                    android:textColor="@color/black">
                 </TextView>
                 <ImageView
                     android:layout_width="wrap_content"

@@ -6,14 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".PostReviews"
     android:background="#E5EBF7"
-
     android:orientation="vertical">
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
-
+        android:layout_height="wrap_content">
         <ImageButton
             android:id="@+id/PostReviewScreenBackBtn"
             android:layout_width="30sp"
@@ -22,100 +18,101 @@
             android:layout_marginTop="20sp"
             android:background="@drawable/back_arrow_vector">
         </ImageButton>
-
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200sp"
         android:layout_marginLeft="20sp"
         android:layout_marginRight="20sp"
         android:backgroundTint="#3D64B5"
-        android:orientation="horizontal"
-        android:background="@drawable/top_white_round_edges">
-        <ImageView
-            android:layout_marginTop="40sp"
-            android:layout_marginLeft="20sp"
-            android:layout_width="120sp"
-            android:layout_height="120sp"
-            android:src="@drawable/blue_teacher">
-
-        </ImageView>
-
+        android:orientation="vertical"
+        android:background="@drawable/top_white_round_edges"
+        android:layout_marginTop="10sp"
+        android:weightSum="5">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <TextView
-
-                android:layout_marginTop="70sp"
-                android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <View
+                android:layout_width="0sp"
                 android:layout_height="match_parent"
-                android:text="Teacher Name"
-                android:textColor="@color/white"
-                android:textSize="30sp"
-                >
-
-            </TextView>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="30sp"
-                android:text="Course name"
-                android:textColor="@color/white">
-
-            </TextView>
-
+                android:layout_weight="1">
+            </View>
+            <ImageView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="15sp"
+                android:src="@drawable/blue_teacher">
+            </ImageView>
+            <View
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </View>
         </LinearLayout>
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            android:text="Teacher Name"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:gravity="center">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            android:text="Course Name"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal">
+        </TextView>
     </LinearLayout>
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="300sp"
         android:orientation="vertical"
         android:background="@drawable/top_white_round_edges">
         <TextView
-            android:layout_marginLeft="130sp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="100sp"
-            android:textSize="30sp"
+            android:gravity="center"
+            android:textSize="25sp"
             android:textStyle="bold"
-            android:text="Comments"
+            android:text="Comment"
             android:textColor="#3D64B5">
-
         </TextView>
-        <TextView
-            android:background="@drawable/top_white_round_edges"
+        <EditText
+            android:background="@drawable/blue_round_edges"
             android:backgroundTint="#E5EBF7"
             android:layout_marginLeft="20sp"
             android:layout_marginRight="20sp"
-
             android:layout_width="match_parent"
-            android:hint="Your comment..........."
+            android:hint="Your comment ..."
+            android:padding="15sp"
             android:textSize="20sp"
             android:layout_height="180sp">
-
-        </TextView>
-
-
+        </EditText>
     </LinearLayout>
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white">
-        <Button
-            android:layout_width="100sp"
-            android:layout_marginLeft="150sp"
-            android:hint="Post"
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp"
+            android:background="@drawable/blue_round_edges"
             android:backgroundTint="#3D64B5"
-            android:textColorHint="@color/white"
-            android:layout_height="40sp">
-
-        </Button>
-
-    </LinearLayout>
-
-
+            android:textColorHint="@color/white">
+        </androidx.appcompat.widget.AppCompatButton>
+    </RelativeLayout>
 </LinearLayout>

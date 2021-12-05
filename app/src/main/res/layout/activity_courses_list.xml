@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfessorsList"
+    tools:context=".CoursesList"
     android:orientation="vertical"
     android:background="#e9effb">
     <RelativeLayout
@@ -17,7 +17,8 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="20sp"
             android:layout_marginTop="20sp"
-            android:src="@drawable/back_arrow_vector"></ImageView>
+            android:src="@drawable/back_arrow_vector">
+        </ImageView>
     </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,6 +67,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/white_round_edges"
                         android:hint="Search Courses ..."
+                        android:textSize="15sp"
                         android:padding="10sp">
                     </EditText>
                     <ImageView

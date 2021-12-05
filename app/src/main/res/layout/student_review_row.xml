@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:id="@+id/TeacherCourseRow">
+    android:id="@+id/StudentReviewRow">
     <View
         android:layout_width="match_parent"
         android:layout_height="1sp"
@@ -24,8 +24,8 @@
             android:id="@+id/ProfessorDP"
             android:layout_width="0sp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="-20sp"
-            android:layout_weight="1"
+            android:layout_marginLeft="0sp"
+            android:layout_weight="0.7"
             android:src="@drawable/teacher">
         </de.hdodenhof.circleimageview.CircleImageView>
         <LinearLayout
@@ -37,27 +37,27 @@
             android:layout_marginLeft="10sp"
             android:padding="10sp">
             <TextView
-                android:id="@+id/StudentName"
-                android:layout_width="match_parent"
-                android:layout_height="0sp"
-                android:layout_weight="1"
-                android:text="Student 1"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:gravity="center_vertical"
-                android:textColor="@color/black">
-            </TextView>
-
-            <TextView
                 android:id="@+id/StudentReviewText"
                 android:layout_width="match_parent"
                 android:layout_height="0sp"
                 android:layout_weight="1"
                 android:text="Excellent Teacher"
-                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textSize="18sp"
                 android:gravity="center_vertical"
                 android:textColor="@color/black">
             </TextView>
+            <TextView
+                android:id="@+id/StudentName"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="1"
+                android:text="Student 1"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black">
+            </TextView>
+
         </LinearLayout>
 
        <ImageView
@@ -65,6 +65,7 @@
            android:layout_width="0sp"
            android:layout_height="match_parent"
            android:layout_weight="0.5"
+           android:padding="3sp"
            android:src="@drawable/like_button_vector">
        </ImageView>
 
@@ -74,6 +75,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10sp"
             android:layout_weight="0.5"
+            android:padding="3sp"
             android:src="@drawable/dislike_button_vector">
         </ImageView>
 
@@ -83,16 +85,14 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10sp"
             android:layout_weight="0.5"
+            android:padding="3sp"
             android:src="@drawable/flag_button_vector">
         </ImageView>
-
-
-
     </LinearLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="1sp"
-        android:background="@color/white"
+        android:background="#e5ebf7"
         android:layout_marginTop="10sp">
     </View>
 

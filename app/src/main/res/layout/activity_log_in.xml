@@ -113,10 +113,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Don't have an account"
-            android:textColor="@color/black"
+            android:textColor="#51607e"
             android:textSize="18sp"
-            android:gravity="center"
-            android:textStyle="bold">
+            android:gravity="center">
         </TextView>
         <TextView
             android:gravity="center"

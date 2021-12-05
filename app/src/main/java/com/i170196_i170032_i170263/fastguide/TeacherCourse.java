@@ -23,13 +23,11 @@ public class TeacherCourse extends AppCompatActivity {
         TeacherCourseRV=findViewById(R.id.TeacherCourseRV);
         ls= new ArrayList<>();
 
-        ls.add(new TeacherCourseModel("OOP"));
-        ls.add(new TeacherCourseModel("OOP"));
-        ls.add(new TeacherCourseModel("OOP"));
-        ls.add(new TeacherCourseModel("OOP"));
-        ls.add(new TeacherCourseModel("OOP"));
-        ls.add(new TeacherCourseModel("OOP"));
-        ls.add(new TeacherCourseModel("OOP"));
+        ls.add(new TeacherCourseModel("Blockchain"));
+        ls.add(new TeacherCourseModel("Data Structures"));
+        ls.add(new TeacherCourseModel("SMD"));
+        ls.add(new TeacherCourseModel("Psychology"));
+        ls.add(new TeacherCourseModel("AI"));
         ls.add(new TeacherCourseModel("OOP"));
         ls.add(new TeacherCourseModel("OOP"));
         ls.add(new TeacherCourseModel("OOP"));
