@@ -15,11 +15,11 @@
     </View>
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="100sp"
-        android:layout_height="100sp"
+        android:layout_height="0sp"
+        android:layout_weight="1"
         android:layout_gravity="center"
         android:src="@drawable/add_userimage_vector"
-        android:background="@color/white"
-        android:padding="20sp">
+        android:padding="0sp">
     </de.hdodenhof.circleimageview.CircleImageView>
     <View
         android:layout_width="match_parent"
@@ -40,10 +40,13 @@
             android:layout_weight="1"
             android:text="Username:"
             android:textColor="#51607e"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold">
         </TextView>
         <EditText
+            android:id="@+id/userNameEntered"
+            android:hint="Enter Username..."
+            android:textSize="14sp"
             android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_weight="2"
@@ -68,10 +71,13 @@
             android:layout_weight="1"
             android:text="Email ID:"
             android:textColor="#51607e"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold">
         </TextView>
         <EditText
+            android:id="@+id/email"
+            android:hint="Enter Email ID..."
+            android:textSize="14sp"
             android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_weight="2"
@@ -97,11 +103,14 @@
             android:layout_weight="1"
             android:text="Password:"
             android:textColor="#51607e"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold">
         </TextView>
         <EditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
+            android:hint="Password..."
+            android:textSize="14sp"
             android:layout_height="0sp"
             android:layout_weight="2"
             android:background="@drawable/white_round_edges"
@@ -126,10 +135,13 @@
             android:layout_weight="1"
             android:text="Confirm Password:"
             android:textColor="#51607e"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold">
         </TextView>
         <EditText
+            android:id="@+id/cpassword"
+            android:hint="Re-enter Password..."
+            android:textSize="14sp"
             android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_weight="2"
@@ -143,19 +155,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0sp"
-        android:layout_weight="1.5"
+        android:layout_weight="1"
         android:weightSum="2"
         android:orientation="vertical">
         <View
             android:layout_width="match_parent"
             android:layout_height="0sp"
-            android:layout_weight="0.8">
+            android:layout_weight="0.7">
         </View>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/SignUp"
-            android:layout_width="180sp"
+            android:layout_width="150sp"
             android:layout_height="0sp"
-            android:layout_weight="1"
+            android:layout_weight="1.3"
             android:background="@drawable/blue_round_edges"
             android:text="Sign up"
             android:textColor="@color/white"
@@ -166,22 +178,23 @@
         android:layout_width="match_parent"
         android:layout_height="0sp"
         android:layout_weight="1.5"
+        android:paddingTop="20sp"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center_horizontal">
         <TextView
             android:id="@+id/DontHaveAccount"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="Already have an account"
             android:textColor="#51607e"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:gravity="center">
         </TextView>
         <TextView
             android:gravity="center"
             android:id="@+id/LogInNow"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text=" Log In Now !"
             android:textStyle="bold"
             android:textSize="18sp"

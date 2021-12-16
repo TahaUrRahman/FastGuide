@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "929852827967",
+    "project_id": "fastguide-a5cca",
+    "storage_bucket": "fastguide-a5cca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929852827967:android:548c75b8caedcdb977cb8a",
+        "android_client_info": {
+          "package_name": "com.i170196_i170032_i170263.fastguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929852827967-026n8cn9dkvuirgmshleqlsbb8glm5q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.i170196_i170032_i170263.fastguide",
+            "certificate_hash": "86c25246fb980a164a0e9521f307c06362f3a955"
+          }
+        },
+        {
+          "client_id": "929852827967-d5avl1aqupuii3r7rcrgo13s1hoti9ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA71DQi3eQtDkZLX3ta8UebVn4468R3jso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929852827967-d5avl1aqupuii3r7rcrgo13s1hoti9ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

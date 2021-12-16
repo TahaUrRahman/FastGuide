@@ -50,25 +50,25 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0sp"
-                    android:layout_weight="2">
+                    android:layout_weight="3">
                 </View>
                 <TextView
+                    android:id="@+id/courseNameinBlueBox"
                     android:layout_width="match_parent"
-                    android:layout_height="0sp"
-                    android:layout_weight="1.2"
+                    android:layout_height="wrap_content"
                     android:text="Course Name"
-                    android:textSize="23sp"
+                    android:textSize="18sp"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:layout_marginLeft="20sp"
                     android:gravity="bottom">
                 </TextView>
                 <TextView
+                    android:id="@+id/departmentNameinBlueBox"
                     android:layout_width="match_parent"
-                    android:layout_height="0sp"
-                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"
                     android:text="Department of Computer Sceince"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     android:textColor="@color/white"
                     android:layout_marginLeft="20sp">
                 </TextView>

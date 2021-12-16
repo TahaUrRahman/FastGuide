@@ -7,21 +7,25 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class CourseNames extends AppCompatActivity {
+public class    CourseNames extends AppCompatActivity {
 
     ImageView BackBtn;
     RecyclerView ProfessorRV;
     List<ProfessorModel> ls;
-
+    TextView courseNameinBlueBox,departmentNameinBlueBox;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_course_names);
-
+        courseNameinBlueBox = findViewById(R.id.courseNameinBlueBox);
+        departmentNameinBlueBox = findViewById(R.id.departmentNameinBlueBox);
+        courseNameinBlueBox.setText(getIntent().getStringExtra("name"));
+        departmentNameinBlueBox.setText(getIntent().getStringExtra("dept"));
         BackBtn = findViewById(R.id.CourseNameScreenBackBtn);
         BackBtn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -38,6 +38,8 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.MyViewHold
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(c,CourseNames.class);
+                intent.putExtra("name",ls.get(holder.getAbsoluteAdapterPosition()).getCourseName());
+                intent.putExtra("dept",ls.get(holder.getAbsoluteAdapterPosition()).getDepartmentName());
                 c.startActivity(intent);
             }
         });

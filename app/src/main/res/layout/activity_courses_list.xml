@@ -13,7 +13,7 @@
 
         <ImageView
             android:id="@+id/CoursesListScreenBackBtn"
-            android:layout_width="30sp"
+            android:layout_width="20sp"
             android:layout_height="match_parent"
             android:layout_marginLeft="20sp"
             android:layout_marginTop="20sp"
@@ -27,29 +27,25 @@
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
             android:text="Courses List"
             android:textColor="#51607e"
             android:textStyle="bold"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:gravity="center">
         </TextView>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:weightSum="3">
             <View
                 android:layout_width="match_parent"
-                android:layout_height="0sp"
-                android:layout_weight="0.5">
+                android:layout_height="10sp">
             </View>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="0sp"
-                android:layout_weight="1.8"
+                android:layout_height="45sp"
                 android:orientation="horizontal"
                 android:weightSum="5">
                 <View
@@ -63,6 +59,7 @@
                     android:layout_weight="3.6">
 
                     <EditText
+                        android:id="@+id/coursesSearchQuery"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/white_round_edges"
@@ -71,6 +68,7 @@
                         android:padding="10sp">
                     </EditText>
                     <ImageView
+                        android:id="@+id/searchCoursesButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/white_round_edges"

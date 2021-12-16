@@ -8,9 +8,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class StudentProfile extends AppCompatActivity {
     ImageView BackBtn;
     AppCompatButton Signout;
+
+// ...
+// Initialize Firebase Auth
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +34,7 @@ public class StudentProfile extends AppCompatActivity {
         Signout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
                 Intent intent = new Intent(StudentProfile.this,LogIn.class);
                 startActivity(intent);
                 finish();

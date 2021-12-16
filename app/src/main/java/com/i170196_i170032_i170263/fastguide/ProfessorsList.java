@@ -29,7 +29,6 @@ public class ProfessorsList extends AppCompatActivity {
                 finish();
             }
         });
-
         ls = new ArrayList<>();
         ls.add(new ProfessorModel("Professor 1","Course#1,Course#2"));
         ls.add(new ProfessorModel("Professor 1","Course#1,Course#2"));
